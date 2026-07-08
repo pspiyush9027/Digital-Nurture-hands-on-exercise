@@ -1,0 +1,8 @@
+﻿Financial_forecsting Output
+================
+
+Financial Forecasting Using Recursion
+Recursion means a method calls itself to solve a problem in smaller steps.
+Starting value : 10000.0
+Growth rates   : 10.0%, 8.0%, 12.0%, 7.000000000000001%
+Predicted value: 14236.99
