@@ -1,0 +1,14 @@
+﻿FactoryMethod Output
+================
+
+Creating a Word document...
+Created: Word Document
+Word file is ready to open.
+
+Creating a PDF document...
+Created: PDF Document
+PDF file opened in read mode.
+
+Creating an Excel document...
+Created: Excel Document
+Excel sheet opened successfully.

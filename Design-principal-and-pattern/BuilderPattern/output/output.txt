@@ -1,0 +1,19 @@
+﻿BuilderPattern Output
+================
+
+Gaming setup:
+Computer details
+CPU -> Intel Core i9
+RAM -> 32GB
+Storage -> 1TB SSD
+Graphics -> NVIDIA RTX 4080
+OS -> Windows 11
+
+Office setup:
+Computer details
+CPU -> Intel Core i5
+RAM -> 16GB
+Storage -> 512GB SSD
+Graphics -> null
+OS -> Windows 10
+

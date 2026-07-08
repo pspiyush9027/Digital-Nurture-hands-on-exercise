@@ -1,0 +1,6 @@
+﻿DependencyInjection Output
+================
+
+Customer found
+Id   : C101
+Name : Aman Gupta

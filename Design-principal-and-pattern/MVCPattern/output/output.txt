@@ -1,0 +1,14 @@
+﻿MVCPattern Output
+================
+
+Initial student details:
+Student record
+Name  : Rahul Sharma
+ID    : S101
+Grade : A
+
+After updating through controller:
+Student record
+Name  : Rahul Verma
+ID    : S101
+Grade : A+

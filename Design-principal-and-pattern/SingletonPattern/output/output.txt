@@ -1,0 +1,8 @@
+﻿SingletonPattern Output
+================
+
+[LOG] Application started.
+[LOG] Logger instance reused.
+logger1 hashCode: 2060468723
+logger2 hashCode: 2060468723
+Same instance: true

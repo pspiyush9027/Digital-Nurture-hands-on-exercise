@@ -1,0 +1,13 @@
+﻿AdapterPattern Output
+================
+
+Trying three different payment gateways:
+
+Routing payment through PayPal adapter...
+PayPal payment done for Rs. 2500.0
+
+Routing payment through Stripe adapter...
+Stripe charged amount: Rs. 4300.5
+
+Routing payment through Bank Transfer adapter...
+Bank transfer completed for Rs. 1200.75
