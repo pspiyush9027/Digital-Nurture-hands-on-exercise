@@ -1,0 +1,13 @@
+﻿E-Commerce-Platform Output
+================
+
+Searching with Linear Search
+Product Id   : 107
+Product Name : Bluetooth Speaker
+Category     : Electronics
+
+Searching with Binary Search
+Product Id   : 107
+Product Name : Bluetooth Speaker
+Category     : Electronics
+
