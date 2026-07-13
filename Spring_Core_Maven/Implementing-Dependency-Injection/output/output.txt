@@ -1,0 +1,2 @@
+BookService received BookRepository using Spring DI.
+Book selected: Clean Code
