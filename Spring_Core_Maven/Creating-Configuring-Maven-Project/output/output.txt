@@ -1,0 +1,1 @@
+LibraryManagement Maven project is configured with Spring dependencies.
