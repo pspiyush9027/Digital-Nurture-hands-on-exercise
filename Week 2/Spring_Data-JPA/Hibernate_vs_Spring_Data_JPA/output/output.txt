@@ -1,0 +1,10 @@
+Hibernate style:
+Open session
+Begin transaction
+Save employee -> Aman
+Commit transaction
+Close session
+
+Spring Data JPA style:
+Repository save -> Aman
+Spring Data JPA keeps the save call smaller and lets Spring manage the boilerplate.
