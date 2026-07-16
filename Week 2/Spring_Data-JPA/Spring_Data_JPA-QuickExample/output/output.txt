@@ -1,0 +1,2 @@
+Spring Data JPA quick example is ready.
+Books available: 2
