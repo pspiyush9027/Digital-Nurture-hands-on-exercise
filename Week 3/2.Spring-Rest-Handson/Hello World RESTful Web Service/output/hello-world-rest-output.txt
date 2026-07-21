@@ -1,0 +1,17 @@
+Hello World RESTful Web Service
+
+Request:
+GET http://localhost:8083/hello
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: text/plain;charset=UTF-8
+
+Hello World!!
+
+Application log while serving the request:
+START
+END
+
+Verification:
+HelloControllerTest - GET /hello returned HTTP 200 and Hello World!!
