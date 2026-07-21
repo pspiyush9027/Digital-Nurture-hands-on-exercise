@@ -1,0 +1,13 @@
+Spring Core - Load Country from Spring XML
+
+Application run result:
+START
+Inside Country Constructor.
+Setting country code to IN.
+Setting country name to India.
+Country : Country{code='IN', name='India'}
+END
+
+Test result:
+CountryConfigurationTest - 1 test run, 0 failures, 0 errors
+BUILD SUCCESS
