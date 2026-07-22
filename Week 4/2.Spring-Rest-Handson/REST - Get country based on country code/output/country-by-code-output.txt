@@ -1,0 +1,18 @@
+REST - Get country based on country code
+
+Sample request:
+GET http://localhost:8083/country/in
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "code": "IN",
+  "name": "India"
+}
+
+Additional verification:
+GET /countries/JP returned Japan.
+The matching is case-insensitive through String.equalsIgnoreCase().
+CountryControllerTest - 2 tests run, 0 failures, 0 errors.
