@@ -1,0 +1,16 @@
+REST - Country Web Service
+
+Request:
+GET http://localhost:8083/country
+
+Response:
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "code": "IN",
+  "name": "India"
+}
+
+Verification:
+CountryControllerTest - GET /country returned HTTP 200 with the India bean loaded from country.xml.
