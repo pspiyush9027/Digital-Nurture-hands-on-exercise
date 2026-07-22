@@ -1,0 +1,15 @@
+Create authentication service that returns JWT
+
+Request:
+curl -s -u user:pwd http://localhost:8090/authenticate
+
+Response format:
+{"token":"<generated-HS256-JWT>"}
+
+The generated token contains:
+- subject: user
+- issued-at time
+- expiration time: one hour after issue
+
+Verification:
+AuthenticationControllerTest validates HTTP 200, a non-empty token, and JWT subject user.
