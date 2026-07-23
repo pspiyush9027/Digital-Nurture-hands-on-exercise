@@ -1,0 +1,10 @@
+ReactJS HOL - My First React App
+
+Browser URL:
+http://localhost:3000
+
+Page heading:
+welcome to the first session of React
+
+Verification:
+npm run build completed successfully with Vite.
