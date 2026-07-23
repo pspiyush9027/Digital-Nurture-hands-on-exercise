@@ -1,0 +1,46 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #173024;
+  background: #e8f0df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 15% 20%, #fff5bf 0, transparent 30%),
+    radial-gradient(circle at 85% 80%, #b9dfc8 0, transparent 34%),
+    #e8f0df;
+}
+
+.welcome-card {
+  width: min(720px, calc(100% - 2rem));
+  padding: clamp(2.5rem, 8vw, 5rem);
+  border: 1px solid #24543d;
+  border-radius: 1.25rem;
+  background: #fffdf5;
+  box-shadow: 12px 12px 0 #24543d;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #bd5b2b;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 4.5rem);
+  font-weight: 500;
+  line-height: 1.04;
+}
