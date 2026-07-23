@@ -1,0 +1,12 @@
+Student Management Portal
+
+Browser URL:
+http://localhost:3000
+
+Rendered component messages:
+Welcome to the Home page of Student Management Portal
+Welcome to the About page of the Student Management Portal
+Welcome to the Contact page of the Student Management Portal
+
+Verification:
+npm run build completed successfully with Vite.

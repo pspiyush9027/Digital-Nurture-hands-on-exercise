@@ -1,8 +1,12 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 
 class About extends Component {
   render() {
-    return <section className="portal-panel about-panel">Welcome to the About page of the Student Management Portal</section>;
+    return React.createElement(
+      'section',
+      { className: 'portal-panel about-panel' },
+      'Welcome to the About page of the Student Management Portal',
+    );
   }
 }
 
