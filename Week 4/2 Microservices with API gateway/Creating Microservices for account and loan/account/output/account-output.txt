@@ -1,0 +1,14 @@
+Account Microservice
+
+Request:
+GET http://localhost:8080/accounts/00987987973432
+
+Response:
+{
+  "number": "00987987973432",
+  "type": "savings",
+  "balance": 234343
+}
+
+Verification:
+AccountControllerTest validates HTTP 200 and the dummy account details.
