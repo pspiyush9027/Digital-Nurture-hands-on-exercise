@@ -1,0 +1,74 @@
+:root {
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #142a3b;
+  background: #eaf2f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eaf2f7, #c9e1d8);
+}
+
+.portal-shell {
+  width: min(1100px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.portal-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #a94f22;
+}
+
+h1 {
+  margin: 0 0 2rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.4rem, 7vw, 5rem);
+  font-weight: 500;
+}
+
+.portal-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.portal-panel {
+  min-height: 180px;
+  padding: 1.5rem;
+  border: 1px solid #142a3b;
+  border-radius: 1rem;
+  display: grid;
+  align-content: end;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  box-shadow: 6px 6px 0 #142a3b;
+}
+
+.home-panel {
+  background: #fff0b8;
+}
+
+.about-panel {
+  background: #f7c8aa;
+}
+
+.contact-panel {
+  background: #bde2d1;
+}
+
+@media (max-width: 760px) {
+  .portal-grid {
+    grid-template-columns: 1fr;
+  }
+}
