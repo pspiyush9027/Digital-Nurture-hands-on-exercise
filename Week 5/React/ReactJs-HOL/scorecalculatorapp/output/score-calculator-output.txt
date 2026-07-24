@@ -1,0 +1,16 @@
+Score Calculator App
+
+Browser URL:
+http://localhost:3000
+
+Input values:
+Name: Piyush Agarwal
+School: Digital Nurture Academy
+Total Score: 450
+Goal: 5
+
+Calculated result:
+Average Score: 90.00
+
+Verification:
+npm run build completed successfully with Vite.
