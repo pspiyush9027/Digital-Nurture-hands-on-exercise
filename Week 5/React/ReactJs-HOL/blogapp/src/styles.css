@@ -1,0 +1,51 @@
+:root {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2d241c;
+  background: #f4efe6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.blog-page {
+  width: min(900px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 42px 0;
+}
+
+.blog-page h1 {
+  margin: 0 0 24px;
+  color: #803b22;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.post-card {
+  margin: 16px 0;
+  padding: 22px 24px;
+  background: #fffdf8;
+  border-left: 5px solid #d18b47;
+  box-shadow: 0 6px 18px rgba(73, 44, 25, 0.09);
+}
+
+.post-card h2 {
+  margin-top: 0;
+  color: #4a2b1c;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.post-card p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.loading-message {
+  margin: 48px auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
