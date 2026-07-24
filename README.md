@@ -15,7 +15,7 @@ Hands-on exercises for Java, design patterns, testing, logging, Spring, data str
 | Spring REST | `Week 3/` | Hello World, country XML configuration, and country REST services |
 | Microservices | `Week 4/2 Microservices with API gateway/` | Independent account and loan REST microservices |
 | JWT Authentication | `Week 4/5. JWT-Handson/` | Basic authentication and JWT token generation |
-| ReactJS HOL | `Week 5/React/ReactJs-HOL/` | Introductory React, Student Management Portal, score calculator, and blog app exercises |
+| ReactJS HOL | `Week 5/React/ReactJs-HOL/` | Introductory React, Student Management Portal, score calculator, blog app, and CSS Module cohort dashboard exercises |
 
 ## Spring Core Maven Exercises
 
@@ -44,6 +44,7 @@ Hands-on exercises for Java, design patterns, testing, logging, Spring, data str
 | Student Management Portal | `Week 5/React/ReactJs-HOL/StudentApp/` | `npm install` then `npm run dev` |
 | Score Calculator App | `Week 5/React/ReactJs-HOL/scorecalculatorapp/` | `npm install` then `npm run dev` |
 | Blog App | `Week 5/React/ReactJs-HOL/blogapp/` | `npm install` then `npm run dev` |
+| Cohort Dashboard Styling | `Week 5/React/ReactJs-HOL/cohortdashboard/` | `npm install` then `npm run dev` |
 
 ## Project Types
 
