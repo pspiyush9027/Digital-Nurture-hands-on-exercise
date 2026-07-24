@@ -1,0 +1,57 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #182437;
+  background: linear-gradient(145deg, #e7edf8, #f9f7f2 55%, #eaf4ef);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dashboard {
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #9c552c;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 6vw, 4.4rem);
+  font-weight: 500;
+}
+
+.intro {
+  max-width: 590px;
+  color: #516078;
+  font-family: 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+}
+
+.cohort-list {
+  margin-top: 36px;
+}
+
+@media (max-width: 540px) {
+  .dashboard {
+    padding-top: 36px;
+  }
+
+  .cohort-list {
+    margin-left: -10px;
+  }
+}
