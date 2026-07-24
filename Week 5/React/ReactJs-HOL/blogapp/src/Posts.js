@@ -38,19 +38,25 @@ class Posts extends Component {
 
   render() {
     if (this.state.isLoading) {
-      return <p className="loading-message">Loading blog posts...</p>;
+      return React.createElement(
+        "p",
+        { className: "loading-message" },
+        "Loading blog posts..."
+      );
     }
 
-    return (
-      <main className="blog-page">
-        <h1>Blog Posts</h1>
-        {this.state.posts.map((post) => (
-          <article className="post-card" key={post.id}>
-            <h2>{post.title}</h2>
-            <p>{post.body}</p>
-          </article>
-        ))}
-      </main>
+    return React.createElement(
+      "main",
+      { className: "blog-page" },
+      React.createElement("h1", null, "Blog Posts"),
+      this.state.posts.map((post) =>
+        React.createElement(
+          "article",
+          { className: "post-card", key: post.id },
+          React.createElement("h2", null, post.title),
+          React.createElement("p", null, post.body)
+        )
+      )
     );
   }
 }
