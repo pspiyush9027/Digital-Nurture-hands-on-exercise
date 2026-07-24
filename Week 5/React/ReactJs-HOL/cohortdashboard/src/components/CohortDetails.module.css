@@ -1,0 +1,26 @@
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(30, 50, 90, 0.08);
+  vertical-align: top;
+}
+
+dt {
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+dd {
+  margin: 3px 0 0;
+  color: #435069;
+}
+
+h3 {
+  margin: 4px 0 16px;
+  font-size: 1.1rem;
+}
